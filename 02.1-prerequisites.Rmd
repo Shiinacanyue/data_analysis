@@ -362,7 +362,7 @@ $$
 **Conditional Probability**
 
 $$
-P[A|B]=\frac{A \cap B}{P[B]}
+P[A|B]=\frac{P[A \cap B]}{P[B]}
 $$
 
 **Independent Events** Two events $A$ and $B$ are independent if and only if:
@@ -382,7 +382,7 @@ Let $b$ be an event such that $P[B]\neq0$\
 Then for any of the events $A_j$, $j = 1,2,…,n$
 
 $$
-P[A_|B]=\frac{P[B|A_j]P[A_j]}{\sum_{i=1}^{n}P[B|A_j]P[A_i]}
+P[A_j|B]=\frac{P[B|A_j]P[A_j]}{\sum_{i=1}^{n}P[B|A_i]P[A_i]}
 $$
 
 **Jensen's Inequality**

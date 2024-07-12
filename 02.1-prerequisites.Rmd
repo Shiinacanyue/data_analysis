@@ -427,7 +427,7 @@ Let $X_1, X_2,...,X_n$ be a random sample of size $n$ from a distribution (not n
 
 2.  $\hat{p}$ is approximately normal with $\mu_{\hat{p}} = p, \sigma^2_{\hat{p}} = \frac{p(1-p)}{n}$
 
-3.  $\hat{p_1} - \hat{p_2}$ is approximately normal with $\mu_{\hat{p_1} - \hat{p_2}} = p_1 - p_2, \sigma^2_{\hat{p_1} - \hat{p_2}}=\frac{p_1(1-p)}{n_1} + \frac{p_2(1-p)}{n_2}$
+3.  $\hat{p_1} - \hat{p_2}$ is approximately normal with $\mu_{\hat{p_1} - \hat{p_2}} = p_1 - p_2, \sigma^2_{\hat{p_1} - \hat{p_2}}=\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}$
 
 4.  $\bar{X_1} - \bar{X_2}$ is approximately normal with $\mu_{\bar{X_1} - \bar{X_2}} = \mu_1 - \mu_2, \sigma^2_{\bar{X_1} - \bar{X_2}} = \frac{\sigma^2_1}{n_1}+\frac{\sigma^2_2}{n_2}$
 
@@ -441,7 +441,7 @@ Let $X_1, X_2,...,X_n$ be a random sample of size $n$ from a distribution (not n
 If $\{x_i\}_{i=1}^{n}$ is an iid random sample from a probability distribution with finite mean $\mu$ and finite variance $\sigma^2$ then the sample mean $\bar{x}=n^{-1}\sum_{i=1}^{n}x_i$ scaled by $\sqrt{n}$ has the following limiting distribution
 
 $$
-\sqrt{n}(\bar{x}-\mu) \to^d N(0,\sigma^2)
+\sqrt{n}(\bar{x}-\mu) \xrightarrow{d} N(0,\sigma^2)
 $$
 
 or if we were to standardize the sample mean,
